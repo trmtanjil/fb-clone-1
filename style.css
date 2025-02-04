@@ -8,9 +8,15 @@
 body{
     background-color: #efefef;
 }
+#sticky-nav{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
 .main-nav{
     display: flex;
     align-items: center;
+
    
 }
 .search{
@@ -220,7 +226,8 @@ body{
     background-color: #ffffff;
     padding: 10px;
     border-radius: 10px;
-  width: 100%;
+  width: 520px;
+
 }
 hr{
    margin: 10px ;
@@ -322,7 +329,7 @@ hr{
 }
 .crat-img img{
     height: 150px;
-    width: 110px;
+    width: 113px;
     border-radius: 10px;
 }
 .story-img-text{
@@ -359,7 +366,7 @@ hr{
 }
 .story-whach-img img{
     height: 200px;
-    width: 100px;
+    width: 117px;
     border-radius: 10px;
 }
 .story-whach-img-logo img{
@@ -440,6 +447,31 @@ hr{
 }
 .contact-icon i{
     padding-left: 10px;
+}
+
+          /* contact-img  */
+
+.contact-img{
+   padding-top: 20px;
+   position: relative;
+}
+.contact-inlin{
+    position: absolute;
+    height: 5px;
+    width: 5px;
+    background-color: rgb(2, 86, 255);
+    border-radius: 900px;
+    border: 2px solid white;
+    left: 26px;
+    bottom: 1px;
+}
+.contact-img img{
+    height: 35px;
+    width: 35px;
+}
+.contact-img h3{
+    font-size: 15px;
+    font-weight: 600;
 }
    /* contact section end */
 
